@@ -56,21 +56,37 @@
 
 <body style="height: 95vh;max-height: 95vh;">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#"><img src="pics/Sicilia-Logo_white.png" width='200px'></a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger" style='!background-color: rgb(42,104,122)!important'>
+    <a class="navbar-brand" href="#">
+      <!-- <img src="pics/Sicilia-Logo_white.png" width='200px'> -->
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+
+        <img style='' src="pics/Sicilia-Logo_white.png" width='200px'>
+    </a>
+
+    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
+    </button> -->
+
+
+    <!-- <div class="navbar-toggler" style="text-align: right; float: right" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+
+      <span class="text-white h6" >
+      <a href="tel:+78007770878" style="text-decoration: none; color: white" class="h5">8 800 777 0878</a>
+      <br>
+       Единый Телефон Доставки
+      </span>
+    </div> -->
 
     <div class="collapse navbar-collapse" id="navbarColor01">
+
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <!-- <li class="nav-item active">
           <a class="nav-link" href="#">2019 <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">2020</a>
-        </li>
+        </li> -->
       </ul>
 
       <span class="text-white" style="text-align: right">
@@ -78,36 +94,43 @@
       <br>
        Единый Телефон Доставки
       </span>
+
     </div>
+
   </nav>
 
   <div class="jumbotron">
 
+    <div class="text-center h2"><p class="lead display-4">🍕🐷 Пиццу <br>c беконом</p></div>
 
-    <p class="lead">Год свиньи подходит к концу и мы решили проводить его особым соревнованием – съесть 2019 пицц с беконом до конца года!</p>
-    <br>
+
+
+
     <div class="text-center">
-      <h5>🍕Пицц с 🐷беконом осталось съесть:</h5>
-      <h1 id="pizzaCount" style="font-size: 133px; font-family: 'Lobster', cursive;" class="display-1">2019</h1>
+
+      <p class="lead">Год свиньи подходит к концу и мы решили проводить его специальным соревнованием<br>– успеть съесть 2019 пицц с беконом до конца года!</p>
+
+      <h1 id="pizzaCount" style="font-size: 133px; font-family: 'Lobster', cursive;" class="display-1">121<h5>🍕Пицц с 🐷беконом съедено</h5></h1>
       <div class="progress" style='height: 48px'>
-        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%;" aria-valuenow="2019" aria-valuemin="0" aria-valuemax="2019">100%</div>
+        <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" style="width: 6%;" aria-valuenow="121" aria-valuemin="0" aria-valuemax="2019">6%</div>
       </div>
+      <br>
+      <p class="lead">Дней до 🎅нового года: <b>16</b></p>
+
     </div>
+
     <br><br>
-    <p class="lead">Участвуй в розыгрыше 30 000 рублей от сети пиццерий Сицилия:</p>
+    <h2 class='h2'>Участвуй в розыгрыше</h2>
+    <p class="lead">30 000 рублей от сети пиццерий Сицилия:</p>
     <ul>
       <li>Съешь любую пиццу с беконом, карбонатом или ветчиной</li>
       <li>Сфотографируй или сохрани чек</li>
       <li>Отмечайся в <a href="#">этом посте в Instagram</a> или <a href="#">ВКонтакте</a> и участвуй в розыгрыше 30 000 рублей на новогодние праздники.</li>
     </ul>
-
-
-
-    <p>Принять участие можно <a href="http://dostavka.pizza-sicilia.ru/">заказав доставку</a> или посетив любую пиццерию Сицилия в Ростове-на-Дону, Адлере, Анапе, Геленджике, Новороссийске, Сочи, Армварире, Белореченске, Горячем Ключе, Кропоткине, Майкопе, Усть-Лабинске,
-      Каневской, Кореновске, Крымске, Ленинградской, Славянске-на-Кубани, Тимашевске и Тихорецке.</p>
-    <br><br>
+    <p>Принять участие можно <a href="http://dostavka.pizza-sicilia.ru/">заказав доставку</a> или посетив любую пиццерию Сицилия!</p>
+    <br>
     <div class="text-center">
-      <h4>Пиццы, которые принимают участие</h4>
+      <h3 class="">Пиццы c 🐷, которые принимают участие</h3>
     </div>
     <hr class="my-4">
     <br>
@@ -121,7 +144,7 @@
             <p class="small" style="height: 80px">Ветчина, Сервелат, Грибы, Томаты, Лук-карамель, сыр Моцарелла</p>
             <p>40см, 1000г – 745р</p>
             <a class="card-link">
-            <a class="btn btn-primary btn-lg" href="https://dostavka.pizza-sicilia.ru/pitstsa/pizza-40-cm-large/sitsiliya-pitstsa" role="button">Заказать</a>
+            <a class="btn btn-danger btn-lg" href="https://dostavka.pizza-sicilia.ru/pitstsa/pizza-40-cm-large/sitsiliya-pitstsa" role="button">Заказать</a>
             </a>
           </div>
         </div>
@@ -136,7 +159,7 @@
             <p></p>
             <p>30см, 600г – 415р</p>
             <a class="card-link">
-            <a class="btn btn-primary btn-lg" href="https://dostavka.pizza-sicilia.ru/pitstsa/pizza-30-cm-medium/suprim" role="button">Заказать</a>
+            <a class="btn btn-danger btn-lg" href="https://dostavka.pizza-sicilia.ru/pitstsa/pizza-30-cm-medium/suprim" role="button">Заказать</a>
             </a>
           </div>
         </div>
@@ -151,7 +174,7 @@
             <p></p>
             <p>40см, 1100г – 745р</p>
             <a class="card-link">
-            <a class="btn btn-primary btn-lg" href="https://dostavka.pizza-sicilia.ru/pitstsa/pizza-40-cm-large/tsezar" role="button">Заказать</a>
+            <a class="btn btn-danger btn-lg" href="https://dostavka.pizza-sicilia.ru/pitstsa/pizza-40-cm-large/tsezar" role="button">Заказать</a>
             </a>
           </div>
         </div>
@@ -166,7 +189,7 @@
             <p></p>
             <p>40см, 1000г – 775р</p>
             <a class="card-link">
-            <a class="btn btn-primary btn-lg" href="https://dostavka.pizza-sicilia.ru/pitstsa/pizza-40-cm-large/manchester" role="button">Заказать</a>
+            <a class="btn btn-danger btn-lg" href="https://dostavka.pizza-sicilia.ru/pitstsa/pizza-40-cm-large/manchester" role="button">Заказать</a>
             </a>
           </div>
         </div>
@@ -181,7 +204,7 @@
             <p></p>
             <p>40см, 1100г – 689р</p>
             <a class="card-link">
-            <a class="btn btn-primary btn-lg" href="https://dostavka.pizza-sicilia.ru/pitstsa/pizza-40-cm-large/poderevenski" role="button">Заказать</a>
+            <a class="btn btn-danger btn-lg" href="https://dostavka.pizza-sicilia.ru/pitstsa/pizza-40-cm-large/poderevenski" role="button">Заказать</a>
             </a>
           </div>
         </div>
@@ -196,7 +219,7 @@
             <p></p>
             <p>30см, 600г – 475р</p>
             <a class="card-link">
-            <a class="btn btn-primary btn-lg" href="https://dostavka.pizza-sicilia.ru/pitstsa/pizza-30-cm-medium/fellini" role="button">Заказать</a>
+            <a class="btn btn-danger btn-lg" href="https://dostavka.pizza-sicilia.ru/pitstsa/pizza-30-cm-medium/fellini" role="button">Заказать</a>
             </a>
           </div>
         </div>
@@ -211,7 +234,7 @@
             <p></p>
             <p>40см, 1100г – 705р</p>
             <a class="card-link">
-            <a class="btn btn-primary btn-lg" href="https://dostavka.pizza-sicilia.ru/pitstsa/pizza-40-cm-large/gril-pitstsa" role="button">Заказать</a>
+            <a class="btn btn-danger btn-lg" href="https://dostavka.pizza-sicilia.ru/pitstsa/pizza-40-cm-large/gril-pitstsa" role="button">Заказать</a>
             </a>
           </div>
         </div>
@@ -226,7 +249,7 @@
             <p></p>
             <p>8х30см, 4000г – <strike>3937р</strike> <text class="text-success">2599р</text></p>
             <a class="card-link">
-            <a class="btn btn-primary btn-lg" href="https://dostavka.pizza-sicilia.ru/kombonaboryi/korporativ" role="button">Заказать</a>
+            <a class="btn btn-danger btn-lg" href="https://dostavka.pizza-sicilia.ru/kombonaboryi/korporativ" role="button">Заказать</a>
             </a>
           </div>
         </div>
@@ -239,7 +262,13 @@
     <div class="text-center">
       <h4>Единый Телефон Доставки</h4>
       <a href="tel:+78007770878" style="text-decoration: none; color: #333" class="h1">8 800 777 0878</a>
+      <br><br>
+      <text class="">Ростов-на-Дону, Адлер, Анапа, Геленджик, Новороссийск, Сочи, Армварир, Белореченск, Горячий Ключ, Кропоткин, Майкоп, Усть-Лабинск,
+       Каневская, Кореновск, Крымск, Ленинградская, Славянск-на-Кубани, Тимашевск, Тихорецк</text>
+      <br><br>
+
     </div>
+
 
     <!-- <p class="lead">
   <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
@@ -257,10 +286,10 @@
 
   </div>
 
-  <div class="pb-1 text-center">
+  <!-- <div class="pb-1 text-center">
     <p>
       Доедим 🐷 вместе!
-      <!-- Счастливого Нового Года! -->
+
       <br>
       <a href="http://pizza-sicilia.ru">Pizza-Sicilia.ru</a>
     </p>
@@ -271,7 +300,7 @@
 
     <br>
 
-  </div>
+  </div> -->
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
