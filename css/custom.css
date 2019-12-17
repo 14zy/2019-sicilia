@@ -12,6 +12,20 @@
   }
 }
 
+
+.rotate-left {
+  animation: rotation-left 8s infinite linear;
+}
+
+@keyframes rotation-left {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
 /* // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { ... }
 
